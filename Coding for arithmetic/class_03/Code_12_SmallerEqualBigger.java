@@ -105,6 +105,8 @@ public class Code_12_SmallerEqualBigger {
 		if (eT != null) {
 			eT.next = bH;
 		}
+
+
 		return sH != null ? sH : eH != null ? eH : bH;
 	}
 
